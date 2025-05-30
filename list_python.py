@@ -19,6 +19,8 @@ print("2. Negative index → fruits[-1]:", fruits[-1])  # banana
 # 3. Slicing
 print("3. Slicing → fruits[1:3]:", fruits[1:3])  # ['banana', 'cherry']
 
+
+#Methods start
 # 4. append() – Add single item to the end
 fruits.append("orange")
 print("\n4. append('orange') →", fruits)
