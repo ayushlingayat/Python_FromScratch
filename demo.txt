@@ -1,0 +1,7 @@
+I am learning python for my future career
+python is really very great language
+I will perform some function by I/O
+function to this text demo.txt file okk
+Appending this line to it okk
+Appending this line to it okk
+Appending this line to it okk

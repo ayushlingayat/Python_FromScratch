@@ -1,0 +1,2 @@
+Hii I created a write file using the .write method of python 
+Happy that file is created :) 
