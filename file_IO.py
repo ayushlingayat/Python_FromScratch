@@ -48,3 +48,10 @@ with open("example.txt", "w") as file:
 # yaha indentation important hee okk
 
 
+# Always use with open(...) as file: — it auto-closes the file even if an error occurs.
+# Use 'w' for writing, 'r' for reading, 'a' for appending.
+# file.write() — writes string
+# file.writelines() — writes a list of strings
+# file.read() — reads entire content
+# file.readline() — reads one line
+# file.readlines() — reads all lines as list
