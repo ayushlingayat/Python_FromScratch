@@ -5,6 +5,22 @@ text = "hello world, welcome to the world of Python."
 
 print("Original Text:", text)
 
+numeric_string = "100"
+
+alphanumeric_string = "10abc"
+
+#*) this split method converts a string into list with seprator define as " "
+print(text.split(" "))
+
+# *) to check if the string is numeric
+print(text.isnumeric())
+#will return false becuase it is not numeric
+print(numeric_string.isnumeric())
+#will return true becuase it is numeric now in string
+print(alphanumeric_string.isalnum())
+#will return true becuase it is alpha_numeric both alphabet and number contain now in string
+
+
 # 1. endswith(suffix)
 # Checks if the string ends with the given suffix
 print("\n1. endswith('Python.') →", text.endswith('Python.'))  # True
